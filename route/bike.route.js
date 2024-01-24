@@ -12,4 +12,7 @@ router.put("/", (req, res) => {
 router.put("/", (req, res) => {
   console.log(req.body);
 });
+router.patch("/", (req, res) => {
+  console.log(req.query);
+});
 module.exports = router;
